@@ -1,0 +1,3 @@
+$wld=mundo;
+$str= "hola $wld";
+print $str;
