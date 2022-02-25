@@ -1,0 +1,3 @@
+$word = pack("C*", @ascii_character_numbers);
+$word = pack("C*", 115, 97, 109, 112, 108, 101); # same
+print "$word\n";
