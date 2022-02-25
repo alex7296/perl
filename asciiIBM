@@ -1,0 +1,7 @@
+$hal = "HAL";
+@ascii = unpack("C*", $hal);
+foreach $val (@ascii) {
+$val++; # add one to each ASCII value
+}
+$ibm = pack("C*", @ascii);
+print "$ibm\n"; # prints "IBM"
