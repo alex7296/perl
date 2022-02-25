@@ -1,0 +1,4 @@
+%cuotas= ("root", 1000,"maye", 5000,"hugo",4000);
+$id=$cuotas{"maye"};
+print $cuotas{"hugo"},"\n";
+
