@@ -1,0 +1,23 @@
+%hash= (
+          "manzana"                  =>    [4, "delicious red", "mediana"],
+           "tocino canadiense"     =>    [1, "paquete", "1 pound"],
+            "alcachofa"               =>   [3, "lata", "8. Oz."],
+            "remolacha"            =>    [4, "lata", "8. Oz."],
+            "sazonador especies" =>  [1, "bote", "3 oz."],
+           "tortilla"                  =>   [1,"paqute", "16 oz."],
+            "salsa picante"         => [1, "bote", "8 oz."]
+);
+
+print $hash{"tocino canadiense"}[1];
+
+@ajos=(4,"ajo","mediano");
+$hash{"ajo"}=[@ajos];
+print $hash{"ajo"}[2];
+
+foreach my $key (sort keys %hash) {
+           print "$key:\n";
+           foreach my $val ( @{$hash{key}} )   {
+                    print "\t$val\n";
+           }
+                    print "\n";
+}
