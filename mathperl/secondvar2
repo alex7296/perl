@@ -1,0 +1,3 @@
+$firstvar= 128;
+$secondvar= $firstvar<<3;
+print("$secondvar\n");
