@@ -1,0 +1,4 @@
+# capitalize each word's first character, downcase the rest
+$text = "thIS is a loNG liNE";
+$text =~ s/(\w+)/\u\L$1/g;
+print $text;
