@@ -1,0 +1,3 @@
+$firstvar= 128;
+$secondvar= $firstvar>>2;
+print("$secondvar\n");
