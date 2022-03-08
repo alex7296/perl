@@ -1,0 +1,6 @@
+$lowvar="AAA";
+$midvar="BBB";
+$hivar="CCC";
+print($lowar cmp $midvar,"\n");
+print($midvar cmp $midvar. "\n");
+print($hidvar cmp $midvar. "\n");
