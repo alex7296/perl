@@ -1,0 +1,6 @@
+$lowvar=8;
+$midvar=10;
+$hivar=12;
+print($lowar<=>$midvar,"\n");
+print($midvar<=>$midvar. "\n");
+print($hidvar<=>$midvar. "\n");
