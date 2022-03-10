@@ -1,0 +1,8 @@
+@array=("carro", "moto", "lancha");
+
+push (@array, "camion");
+
+$otro="avion";
+push(@array, $otro);
+
+print $array[4],"\n";
