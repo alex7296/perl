@@ -1,0 +1,8 @@
+$firstVar=10;
+
+{
+  my($firstVar)="A";
+   print $firstVar x 5 . "\n";
+}
+
+print("firstVar=$firstVar\n");
