@@ -1,0 +1,6 @@
+ @array=(“carro”,”moto”,”lancha”,”camión”,”avión”);
+pop(@array);
+
+$ultimo= pop(@array);
+
+Print “$ultimo \n”;
