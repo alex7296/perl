@@ -1,0 +1,4 @@
+$cadena="casa==edificio==choza==hotel";
+@arraynuevo=split("==", $cadena,3);
+
+print $arraynuevo[2], "\n";
