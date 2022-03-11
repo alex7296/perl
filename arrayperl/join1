@@ -1,0 +1,4 @@
+@array=("casa","edificio","choza","hotel");
+$cadenanueva=join("--", @array);
+
+print $cadenanueva, "\n";
