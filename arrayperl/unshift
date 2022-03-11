@@ -1,0 +1,9 @@
+@array=("lancha","camion","avion");
+
+unshift(@array, "moto");
+
+$otro="carro";
+
+unshift(@array, $otro);
+
+print "$array[0] \n";
