@@ -1,0 +1,7 @@
+@array=(“carro”, “moto”,”lancha”,”camion”,”avion”);
+
+shift(@aray);
+
+$primero=shift(@array);
+
+print “$primero \n
