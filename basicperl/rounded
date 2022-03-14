@@ -1,0 +1,4 @@
+$a = 0.255;
+$b = sprintf("%.2f", $a);
+print "Unrounded: $a\nRounded: $b\n";
+printf "Unrounded: $a\nRounded: %.2f\n", $a;
