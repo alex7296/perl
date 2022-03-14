@@ -1,0 +1,6 @@
+use POSIX;
+print "number\tint\tfloor\tceil\n";
+@a = ( 3.3 , 3.5 , 3.7, -3.3 );
+foreach (@a) {
+     printf( "%.1f\t%.1f\t%.1f\t%.1f\n", $_, int($_), floor($_), ceil($_) );
+}
