@@ -1,0 +1,3 @@
+$wage = 536; # $5.36/hour
+$week = 40 * $wage; # $214.40
+printf("One week's wage is: \$%.2f\n", $week/100);
