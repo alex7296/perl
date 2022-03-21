@@ -1,0 +1,15 @@
+print "Infancy is: ";
+foreach (0 .. 2) {
+print "$_ ";
+}
+print "\n";
+print "Toddling is: ";
+foreach $i (3 .. 4) {
+print "$i ";
+}
+print "\n";
+print "Childhood is: ";
+for ($i = 5; $i <= 12; $i++) {
+print "$i ";
+}
+print "\n";
