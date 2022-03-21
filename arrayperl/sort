@@ -1,0 +1,4 @@
+@array=("a","e","b","d","c","B");
+@array=sort(@array);
+print $array[5],"\n";
+print $array[0], "\n";
