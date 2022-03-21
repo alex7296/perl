@@ -1,0 +1,3 @@
+@array=(5,2,1,3,4);
+@array=reverse(sort(@array));
+print $array[0], "\n";
