@@ -1,0 +1,2 @@
+$random = int( rand(51)) + 25;
+print "$random\n";
