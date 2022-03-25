@@ -1,0 +1,2 @@
+use Math::Complex;
+printf "log2(1024) = %lf\n", logn(1024, 2); # watch out for argument order!
