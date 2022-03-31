@@ -1,0 +1,7 @@
+sub reverse_greeting {
+my $name = reverse shift;
+return "Hello, $name!";
+}
+my $name = 'Chuck';
+say reverse_greeting( $name );
+say $name;
