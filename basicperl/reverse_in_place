@@ -1,0 +1,10 @@
+my $name = 'Larry';
+my $name_ref = \$name;
+
+sub reverse_in_place {
+my $name_ref = shift;
+$$name_ref = reverse $$name_ref;
+}
+my $name = 'Blabby';
+reverse_in_place( \$name );
+say $name;
