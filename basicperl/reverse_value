@@ -1,0 +1,6 @@
+sub reverse_value_in_place {
+$_[0] = reverse $_[0];
+}
+my $name = 'allizocohC';
+reverse_value_in_place( $name );
+say $name;
