@@ -1,0 +1,9 @@
+package main;
+main();
+sub main {
+show_call_information();
+}
+sub show_call_information {
+my ($package, $file, $line) = caller();
+print "Called from $package in $file:$line";
+}
