@@ -1,0 +1,17 @@
+sub show_pets_by_type {
+my ($type, %pets) = @_;
+while (my ($name, $species) = each %pets) {
+next unless $species eq $type;
+print "$name is a $species";
+}
+}
+my %pet_names_and_types = (
+Lucky => 'dog',
+Rodney => 'dog',
+Tuxedo => 'cat',
+Petunia => 'cat',
+Rosie => 'dog',
+);
+show_pets_by_type( 'dog', %pet_names_and_types );
+show_pets_by_type( 'cat', %pet_names_and_types );
+show_pets_by_type( 'moose', %pet_names_and_types );
