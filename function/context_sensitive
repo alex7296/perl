@@ -1,0 +1,9 @@
+sub context_sensitive {
+my $context = wantarray();
+return qw( List context ) if $context;
+print 'Void context' unless defined $context;
+return 'Scalar context' unless $context;
+}
+context_sensitive();
+print my $scalar = context_sensitive();
+print context_sensitive();
