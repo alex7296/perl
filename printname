@@ -1,0 +1,6 @@
+my $name = 'Jacob';
+{
+my $name = 'Edward  ';
+print $name;
+}
+print $name
