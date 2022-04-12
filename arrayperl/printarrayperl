@@ -1,0 +1,3 @@
+@array = ("red", "yellow", "green");
+print "I have ", @array, " marbles.\n";
+print "I have @array marbles.\n";
