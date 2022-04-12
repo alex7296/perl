@@ -1,0 +1,5 @@
+my $cat = 'Brad';
+for my $cat (qw( Jack Daisy Petunia Tuxedo Choco )) {
+print "Inner cat is $cat";
+}
+print "Outer cat is $cat"
