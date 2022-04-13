@@ -1,0 +1,16 @@
+our $scope;
+sub inner {
+print $scope;
+}
+sub main {
+print $scope;
+local $scope = 'main() scope';
+middle();
+}
+sub middle {
+print $scope;
+inner();
+}
+$scope = 'outer scope';
+main();
+print $scope;
