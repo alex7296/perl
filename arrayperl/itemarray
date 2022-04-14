@@ -1,0 +1,5 @@
+@array = (1,2,3);
+foreach $item (@array) {
+$item--;
+}
+print "@array\n";
