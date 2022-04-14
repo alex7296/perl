@@ -1,0 +1,6 @@
+# multiply everything in @a and @b by seven
+@a = ( .5, 3 ); @b =( 0, 1 );
+foreach $item (@a, @b) {
+$item *= 7;
+}
+print "@a @b\n";
