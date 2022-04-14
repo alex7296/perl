@@ -1,0 +1,3 @@
+foreach $var (sort keys %ENV) {
+print "$var=$ENV{$var}\n";
+}
