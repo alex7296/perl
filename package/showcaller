@@ -1,0 +1,11 @@
+package ShowCaller;
+sub show_caller {
+my ($package, $file, $line, $sub) = caller(1);
+say "Called from $sub in $package:$file:$line";
+}
+sub main {
+my $anon_sub = sub { show_caller() };
+show_caller();
+$anon_sub->();
+}
+main();
