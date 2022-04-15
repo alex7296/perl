@@ -1,0 +1,16 @@
+sub gen_fib {
+my @fibs = (0, 1);
+return sub {
+my $item = shift;
+if ($item >= @fibs) {
+for my $calc (@fibs .. $item) {
+$fibs[$calc] = $fibs[$calc - 2]
++ $fibs[$calc - 1];
+}
+}
+return $fibs[$item];
+}
+}
+# calculate 42nd Fibonacci number
+my $fib = gen_fib();
+print $fib->( 42 );
