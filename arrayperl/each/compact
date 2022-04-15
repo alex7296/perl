@@ -1,0 +1,2 @@
+p [ "a", nil, "b", nil, "c" ].compact
+p [ "a", "b", "c" ].compact
