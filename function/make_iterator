@@ -1,0 +1,12 @@
+sub make_iterator {
+my @items = @_;
+my $count = 0;
+return sub {
+return if $count == @items;
+return $items[ $count++ ];
+}
+}
+my $cousins = make_iterator(qw(
+Rick Alex Kaycee Eric Corey Mandy Christine Alex
+));
+say $cousins->() for 1 .. 6;
