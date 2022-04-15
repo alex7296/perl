@@ -1,0 +1,4 @@
+a = [ "a", "b", "b", "b", "c" ]
+a.delete("b") 
+p a
+p a.delete("z") 
