@@ -1,0 +1,5 @@
+@fruits = ( "Apple", "Blackberry" );
+$fruit_ref = \@fruits;
+foreach $fruit (@$fruit_ref) {
+print "$fruit tastes good in a pie.\n";
+}
