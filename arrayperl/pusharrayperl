@@ -1,0 +1,10 @@
+@members = ("Time", "Flies");
+@initiates = ("An", "Arrow");
+push(@members, @initiates);
+# @members is now ("Time", "Flies", "An", "Arrow")
+If you want to insert the elements of one array into the middle of another, use the splice function:
+splice(@members, 2, 0, "Like", @initiates);
+print "@members\n";
+splice(@members, 0, 1, "Fruit");
+splice(@members, -2, 2, "A", "Banana");
+print "@members\n";
