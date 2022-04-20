@@ -1,0 +1,3 @@
+my $status = 'I feel ill.';
+$status =~ s/ill/well/;
+print $status;
