@@ -1,0 +1,14 @@
+%food_color = (
+Apple => "red",
+Banana => "yellow",
+Lemon => "yellow",
+Carrot => "orange"
+);
+
+# %food_color defined per the introduction
+$food_color{Raspberry} = "pink";
+print "Known foods:\n";
+foreach $food (keys %food_color) {
+print "$food\n";
+}
+
