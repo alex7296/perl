@@ -1,0 +1,8 @@
+use Math::BigInt;
+sub factorial {
+my $n = shift;
+my $s = 1;
+$s *= $n-- while $n > 0;
+return $s;
+}
+print factorial(Math::BigInt->new("500"));
