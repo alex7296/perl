@@ -1,0 +1,5 @@
+use experimental 'smartmatch';
+my ($x, $y) = (10, 20);
+print 'Not equal numerically' unless $x ~~ $y;
+my $z = '10 little endians';
+print 'Equal numeric-ishally' if $x ~~ $z;
