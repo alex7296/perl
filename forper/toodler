@@ -1,0 +1,11 @@
+%age = ();
+$age{"Toddler"} = 3;
+$age{"Unborn"} = 0;
+$age{"Phantasm"} = undef;
+foreach $thing ("Toddler", "Unborn", "Phantasm", "Relic") {
+print "$thing: ";
+print "Exists " if exists $age{$thing};
+print "Defined " if defined $age{$thing};
+print "True " if $age{$thing};
+print "\n";
+}
