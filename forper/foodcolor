@@ -1,0 +1,8 @@
+# %food_color per the introduction
+foreach $name ("Banana", "Martini") {
+if (exists $food_color{$name}) {
+print "$name is a food.\n";
+} else {
+print "$name is a drink.\n";
+}
+}
