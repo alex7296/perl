@@ -1,0 +1,5 @@
+$digits = "123456789";
+@nonlap = $digits =~ /(\d\d\d)/g;
+@yeslap = $digits =~ /(?=(\d\d\d))/g;
+print "Non-overlapping: @nonlap\n";
+print "Overlapping: @yeslap\n";
