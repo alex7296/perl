@@ -1,0 +1,3 @@
+$string = "And little lambs eat ivy";
+$string =~ /l[^s]*s/;
+print "($`) ($&) ($')\n";
