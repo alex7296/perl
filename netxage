@@ -1,0 +1,3 @@
+my $age = 14;
+(my $next_age = $age)++;
+print "I am $age, but next year I will be $next_age";
