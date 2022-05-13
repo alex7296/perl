@@ -1,0 +1,6 @@
+sub numeric_equality($$) {
+my ($left, $right) = @_;
+return $left == $right;
+}
+my @nums = 1 .. 10;
+print "They're equal, whatever that means!" if numeric_equality @nums, 10;
